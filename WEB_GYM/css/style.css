@@ -49,6 +49,14 @@ body {
      overflow-x: hidden;
 }
 
+
+
+#header{
+     width: 1000px;
+
+     background: url(logo1.PNG);
+}
+
 a {
      color: #1f1f1f;
      text-decoration: none !important;
@@ -226,17 +234,28 @@ button {
 .header_top{
      width: 100%;
      float: left;
-     background-color: #1c1c1c;
+     background-color: #000000;
      height: auto;
 }
 
 .logo{
-     width: 100%;
+     width: 200%;
      float: left;
      text-align: center;
      padding: 40px 0px;
 }
 
+#imagenentrene1 {
+     border-radius: 8px;
+   }
+
+#imagenentrene2{
+     border-radius: 8px;
+}
+
+#imagenentrene3{
+     border-radius: 8px;
+}
 #titulo{
      color: goldenrod;
      font-size:32pt;
@@ -313,7 +332,7 @@ header {
 .banner_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
+    background-color: #000;
     height: auto;
     padding-top: 50px;
     padding-bottom: 162px;
@@ -491,11 +510,11 @@ p.lorem_text {
 .service_section{
      width: 100%;
      float: left;
-     background-image: url(../images/service-bg.png);
+     background-image: url(../images/entrenamientos/fondo.jpg);
      height: auto;
      background-size: cover;
      background-repeat: no-repeat;
-     padding-bottom: 90px;
+     padding-bottom: 130px;
 }
 
 .services_text{
@@ -597,7 +616,7 @@ p.lorem_text {
 .discount_bg {
     width: 90%;
     margin: 0 auto;
-    background-color: #dab509;
+    background-color: #aa8c06;
     height: auto;
     padding: 40px 0px 40px 30px;
     text-align: center;
@@ -710,7 +729,20 @@ justify-content: center;
      font-style: italic;
      border-bottom: 1px solid #dab509;
 }
+#imgindex{
+     width: 474px;
+     height: 474px;
+}
 
+#img2index{
+     width: 474px;
+     height: 474px;
+}
+
+#img3index{
+     width: 474px;
+     height: 474px;
+}
 .reader_text{
      width: 100%;
      float: left;
@@ -868,7 +900,7 @@ background-color:white
 .footer_section{
      width: 100%;
      float: left;
-     background-color: #1c1c1c;
+     background-color: #000000;
      height: auto;
      padding-bottom: 60px;
 }
