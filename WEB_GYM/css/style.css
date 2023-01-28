@@ -452,7 +452,7 @@ p.lorem_text {
 .about_section{
      width: 100%;
      float: left;
-     background-image: url(../images/about-bg.png);
+    
      height: auto;
      background-size: 100%;
      padding-bottom: 90px;
@@ -604,11 +604,27 @@ p.lorem_text {
     background-color: #ffffff;
 }
 
+#botoncalcular {
+     text-decoration:none;
+     font-weight: 600;
+     font-size: 20px;
+     color:#000000;
+     padding-top:15px;
+     padding-bottom:15px;
+     padding-left:40px;
+     padding-right:40px;
+     background-color: transparent;
+     border-width: 3px;
+     border-style: solid;
+     border-color: #000000;
+    
+     }
+
 .discount_section {
     width: 100%;
     float: left;
     padding-top: 150px;
-    background-image: url(../images/client-bg.png);
+   
     background-size: 100%;
 
 }
@@ -984,4 +1000,34 @@ background-color:white
 .margin_top_0{
      margin-top: 90px; 
 }
+
+
+#main_slider2 a.carousel-control-prev {
+      position: absolute;
+     left: -95px;
+      top: 60%;
+      background-color: #f8ca12;
+     }
+     
+     
+     #main_slider2 .carousel-control-prev:hover, #main_slider2 .carousel-control-next:hover, #main_slider2 .carousel-control-prev:focus, #main_slider2 .carousel-control-next:focus {
+      background: #f8ca12;
+     color: #fff;
+     }
+     
+     #main_slider2 a.carousel-control-next {
+      position: absolute;
+     right: -95px;
+      top: 60%;
+     }
+     
+     #main_slider2 .carousel-control-prev, #main_slider2 .carousel-control-next {
+     width: 65px;
+      height: 65px;
+     background: #f8ca12;
+     opacity: 1;
+      font-size: 30px;
+      color: #000;
+     }
+     
 
