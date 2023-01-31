@@ -247,14 +247,26 @@ button {
 
 #imagenentrene1 {
      border-radius: 8px;
+     width: 550px;
+     height: 250px;
    }
+
+#sudadera{
+     width: 550px;
+     height: 450px;
+}
+
 
 #imagenentrene2{
      border-radius: 8px;
+     width: 550px;
+     height: 250px;
 }
 
 #imagenentrene3{
      border-radius: 8px;
+     width: 550px;
+     height: 250px;
 }
 #titulo{
      color: goldenrod;
