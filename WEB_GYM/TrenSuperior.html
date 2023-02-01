@@ -28,7 +28,10 @@
       <link rel="stylesheet" href="css/owl.carousel.min.css">
       <link rel="stylesheet" href="css/owl.theme.default.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-        <script type="text/javascript" src="ajax.js"></script>
+      <script type="text/javascript" src="jquery-3.6.2.js"></script>
+      <script type="text/javascript" src="ajax.js"></script>
+      <script src="operaciones.js"></script>
+        
    </head>
    <!-- body -->
    <body>
@@ -103,10 +106,14 @@
                       <h3 class="alex_text">Brazo</h3>
                       <img id="imagenentrene1" src="images/TrenSuperior/brazo.webp" alt="">
                   
-                      <input type = "button" value = "Mostrar Ejercicios" onclick ="sacardatos('EjerciciosBrazo.html','contenedor2')">
+                      <input type = "button" value = "Mostrar Ejercicios" onclick ="sacardatos('EjerciciosBrazo.html','contenedor2')"> 
+                      <button id="hide">Esconder</button>
+                      <button id="show">Volver a mostrar ejercicios</button>
+                      
                       <div id="contenedor2" style="background-color:#c6c90c;">
-                    
+                  
                         </div>
+                    
                     </div>
                   </div>
                 </div>

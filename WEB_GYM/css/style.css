@@ -632,6 +632,38 @@ p.lorem_text {
     
      }
 
+#botoncalcular2{
+     text-decoration:none;
+     font-weight: 600;
+     font-size: 20px;
+     color:#000000;
+     padding-top:15px;
+     padding-bottom:15px;
+     padding-left:40px;
+     padding-right:40px;
+     background-color: transparent;
+     border-width: 3px;
+     border-style: solid;
+     border-color: #000000;
+
+}
+
+#botoncalcular3{
+     text-decoration:none;
+     font-weight: 600;
+     font-size: 20px;
+     color:#000000;
+     padding-top:15px;
+     padding-bottom:15px;
+     padding-left:40px;
+     padding-right:40px;
+     background-color: transparent;
+     border-width: 3px;
+     border-style: solid;
+     border-color: #000000;
+
+}
+
 .discount_section {
     width: 100%;
     float: left;
