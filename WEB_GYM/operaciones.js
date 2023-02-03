@@ -16,14 +16,46 @@ $(document).ready(function() {
     });
 });
 
+
 $(document).ready(function(){
     $("#hide").click(function(){
-      $("#contenedor2").hide();
+      $("#contenedor").hide();
     });
     $("#show").click(function(){
+        $("#contenedor").show();
+      });
+  });
+
+
+$(document).ready(function(){
+    $("#hide2").click(function(){
+      $("#contenedor2").hide();
+    });
+    $("#show2").click(function(){
         $("#contenedor2").show();
       });
   });
+
+  $(document).ready(function(){
+    $("#hide3").click(function(){
+      $("#contenedor3").hide();
+    });
+    $("#show3").click(function(){
+        $("#contenedor3").show();
+      });
+  });
+
+
+  $(document).ready(function(){
+    $("#hide4").click(function(){
+      $("#contenedor4").hide();
+    });
+    $("#show4").click(function(){
+        $("#contenedor4").show();
+      });
+  });
+
+
 
 
 
