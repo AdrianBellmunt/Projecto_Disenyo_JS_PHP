@@ -28,6 +28,9 @@
       <link rel="stylesheet" href="css/owl.carousel.min.css">
       <link rel="stylesheet" href="css/owl.theme.default.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <script type="text/javascript" src="jquery-3.6.2.js"></script>
+      <script type="text/javascript" src="ajax.js"></script>
+      <script src="operaciones.js"></script>
    </head>
    <!-- body -->
    <body>
@@ -87,12 +90,26 @@
                     <div class="alex_bg">
                       <h3 class="alex_text">Cuadriceps</h3>
                      <img id="imagenentrene1" src="images/Treninferior/cuadriceps.jpg" alt="">
+                     <input type = "button" id="show" value = "Mostrar Ejercicios" onclick ="sacardatos('EjerciciosTrenInferior/Ecuadriceps.html','contenedor')"> 
+                     <button id="hide">Esconder</button>
+                     
+                     
+                     <div id="contenedor" style="background-color:#c6c90c;">
+                 
+                       </div>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="alex_bg">
                       <h3 class="alex_text">Femoral</h3>
                       <img id="imagenentrene1"  src="images/Treninferior/femoral.jpg" alt="">
+                      <input type = "button" id="show2" value = "Mostrar Ejercicios" onclick ="sacardatos('EjerciciosTrenInferior/Efemoral.html','contenedor')"> 
+                      <button id="hide2">Esconder</button>
+                      
+                      
+                      <div id="contenedor2" style="background-color:#c6c90c;">
+                  
+                        </div>
                     </div>
                   </div>
                 </div>
@@ -103,12 +120,28 @@
                     <div class="alex_bg">
                       <h3 class="alex_text">Gemelos</h3>
                       <img id="imagenentrene1" src="images/Treninferior/gemelos.jpg" alt="">
+
+                      <input type = "button" id="show3" value = "Mostrar Ejercicios" onclick ="sacardatos('EjerciciosTrenInferior/Egemelos.html','contenedor')"> 
+                      <button id="hide3">Esconder</button>
+                      
+                      
+                      <div id="contenedor3" style="background-color:#c6c90c;">
+                  
+                        </div>
+
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="alex_bg">
                       <h3 class="alex_text">Pierna completa</h3>
                       <img id="imagenentrene1" src="images/Treninferior/pcompleta.jpg" alt="">
+                      <input type = "button" id="show4" value = "Mostrar Ejercicios" onclick ="sacardatos('EjerciciosTrenInferior/Epiernacompleta.html','contenedor')"> 
+                      <button id="hide4">Esconder</button>
+                      
+                      
+                      <div id="contenedor4" style="background-color:#c6c90c;">
+                  
+                        </div>
                     </div>
                   </div>
                 </div>
