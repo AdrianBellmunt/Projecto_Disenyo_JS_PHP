@@ -57,6 +57,20 @@ $(document).ready(function(){
 
 
 
+// <!--widget-->
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+
+
+  // <!--informacion ropa-->
+
+  $(document).ready(function() {
+    $("#botoncalcular").click(function(event) {
+        $("#caja").load('sudadera1.txt');
+    });
+});
+
 
 
 function calcularIMC() {
