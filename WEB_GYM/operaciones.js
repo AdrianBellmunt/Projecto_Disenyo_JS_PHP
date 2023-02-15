@@ -1,3 +1,6 @@
+
+// <!--.load-->
+
 $(document).ready(function() {
     $("#botoncalcular").click(function(event) {
         $("#caja").load('CalculadoraMassa.html');
@@ -16,6 +19,7 @@ $(document).ready(function() {
     });
 });
 
+// <!--show y hide-->
 
 $(document).ready(function(){
     $("#hide").click(function(){
@@ -57,22 +61,119 @@ $(document).ready(function(){
 
 
 
-// <!--widget-->
-  $( function() {
-    $( "#accordion" ).accordion();
-  } );
+// <!--widget tabs-->
+$( function() {
+  $( "#tabs" ).tabs();
+} );
 
 
-  // <!--informacion ropa-->
+ // <!--efectos fotos(plugin)-->
 
-  $(document).ready(function() {
-    $("#botoncalcular").click(function(event) {
-        $("#caja").load('sudadera1.txt');
+ jQuery.fn.efectofoto = function() {
+  this.each(function(){
+     elem = $(this);
+     elem.fadeOut();
+  });   
+  return this;
+}; 
+
+jQuery.fn.efectofoto2 = function() {
+  this.each(function(){
+     elem = $(this);
+     elem.fadeIn();
+  });   
+  return this;
+}; 
+
+ 
+jQuery.fn.mostrar = function() {
+  this.each(function(){
+     elem = $(this);
+     elem.css("display", "block");
+  });   
+  return this;
+}; 
+
+jQuery.fn.desaparece = function() {
+    $("#propiedades").hide();
+  return this;
+}; 
+
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("#propiedades").desaparece();
+  });
+  $("#botonhuevo").click(function(){
+      $("#propiedades").show();
     });
 });
 
 
 
+$(document).ready(function() {
+  $("#huevo").mouseenter((function () {
+      $("#huevo").efectofoto(2000);
+      
+  }));
+
+  $("#huevo").mouseleave(function(){				
+    $("#huevo").efectofoto2(2000);		
+  })});
+
+  // <!--informacion ropa-->
+
+  $(document).ready(function() {
+    $('#show').click(mostrarFichero);
+    });
+  
+    $(document).ready(function() {
+      $('#hide').click(function () {
+        $("#contenedor").hide();
+      });
+      });
+
+
+      $(document).ready(function() {
+        $('#show2').click(mostrarFichero2);
+        });
+      
+        $(document).ready(function() {
+          $('#hide2').click(function () {
+            $("#contenedor2").hide();
+          });
+          });
+    
+
+  function mostrarFichero() {
+    $.ajax({
+        url: './sudadera1.txt',
+        type: 'GET',
+    })
+    .done(function (data) {
+        $("#contenedor").html(data);
+    })
+
+    .fail(function () {
+        $("#contenedor").html("Not found.");
+    })
+}
+
+function mostrarFichero2() {
+  $.ajax({
+      url: './sudadera1.txt',
+      type: 'GET',
+  })
+  .done(function (data) {
+      $("#contenedor2").html(data);
+  })
+
+  .fail(function () {
+      $("#contenedor2").html("Not found.");
+  })
+}
+
+
+  // <!--Calculadoras-->
 function calcularIMC() {
 
     var altura = document.getElementById("altura").value;
