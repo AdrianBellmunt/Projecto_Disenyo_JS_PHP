@@ -49,6 +49,9 @@ body {
      overflow-x: hidden;
 }
 
+ul.b {
+     list-style-type: square;
+   }
 
 
 #header{
