@@ -73,10 +73,9 @@ $( function() {
 
 // <!--plugin-->
 $(document).ready(function() {
-  $("#botoncambiarcolor").click(function() {
-    $("p").hacerrojo();
-  });
+$("body").aumentar();
 });
+
 
 
   // <!--Calculadoras-->

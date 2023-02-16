@@ -1,10 +1,8 @@
- // <!--efectos fotos(plugin)-->
-
-
- jQuery.fn.hacerrojo = function() {
-    this.each(function(){
-       elem = $(this);
-       elem.css( "color", "red");
-    });   
-    return this;
- }; 
+jQuery.fn.aumentar = function() {
+   $("body").click(function(){
+   $("#bienvenida").animate({fontSize: '+=62px'}, 5000);
+   setTimeout(function(){
+   $("#bienvenida").animate({fontSize: '-=62px'}, 3000);
+   }, 3000);
+   });
+   };
