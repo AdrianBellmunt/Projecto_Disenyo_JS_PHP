@@ -1,0 +1,68 @@
+
+   {% extends 'base.html.twig' %}
+
+{% block title %}BLOG{% endblock %}
+
+     
+     {% block body %}
+   
+      <div id="tabs">
+        <ul>
+          <li><a href="#tabs-1">¿Es malo comer mas de 2 huevos al dia?</a></li>
+          <li><a href="#tabs-2">¿Cual es el mejor suplemento?</a></li>
+          <li><a href="#tabs-3">¿Como organizo mi rutina?</a></li>
+          <li><a href="#tabs-4">¿Cuanto llevas entrenando?</a></li>
+        </ul>
+        <div id="tabs-1">
+          <p id="parrafo">La cuestión es que las evidencias científicas actuales confirman que el huevo no eleva el nivel de colesterol en sangre. Aunque antes se decía que no era recomendable comer más de dos o tres huevos a la semana, hoy se puede decir que incluso pueden comerse diariamente</p>
+          <img src="images/huevos.jpg" alt="" width="350px" id="huevo"><br>
+          <button id="botoncambiarcolor">Boton</button>
+         
+          <div id="propiedades">
+
+          <ul class="b">
+          <li>Proteina: 13gr </li>
+          <li>Calorias: 80 kcal </li>
+          <li>Grasa: 3gr </li>
+          <li>Vitaminas: 2gr</li>
+          </ul>
+
+          </div>
+
+        </div>
+        <p id="parrafo">La cuestión es que las evidencias científicas actuales confirman que el huevo no eleva el nivel de colesterol en sangre. Aunque antes se decía que no era recomendable comer más de dos o tres huevos a la semana, hoy se puede decir que incluso pueden comerse diariamente</p>
+        <div id="tabs-2">
+          <p>La creatina es el mejor suplemento al que puedes recurrir si buscas ganar masa muscular. La función principal de la creatina es la mejora del rendimiento sobre series cortas y muy intensas, precisamente como las que se realizan en los entrenamientos de fuerza e hipertrofia.</p>
+          <img src="images/Creatina.jpg" alt="" width="350px" id="Creatina"><br>
+
+          <div id="propiedades">
+
+            <ul class="b">
+            <li>Proteina: 30gr </li>
+            <li>Calorias: 180 kcal </li>
+            <li>Grasa: 2gr </li>
+            <li>Vitaminas: 20gr</li>
+            </ul>
+  
+          </div>
+        </div>
+        <div id="tabs-3">
+          <p>La mejor manera de organizarse los entrenamientos es siguiendo un planning semanal, sobre todo si las visitas son al gimnasio. Así, se pueden trabajar todos los grupos musculares de manera ordenada pero sin forzarlos, dejándoles el tiempo necesario de descanso para que se los músculos se recuperen y puedan crecer.</p>
+          <img src="images/organizacion.jpg" alt="" width="350px" id="organizacion"><br>
+        </div>
+
+        <div id="tabs-4">
+          <h1>Años:</h1>
+
+          <h1>1: Principo de la barra</h1> <br> <h1>2: Un quarto de la barra</h1> <br>
+
+          <h1>3: Mitad de la barra</h1> <br> <h1>4: Tres quartos de la barra</h1> <br>
+          <h1>5 o más: La barra completa</h1> 
+         
+          <div id="slider"></div>
+        </div>
+      </div>
+   
+   
+   
+    {% endblock %}
