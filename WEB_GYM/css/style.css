@@ -49,10 +49,12 @@ body {
      overflow-x: hidden;
 }
 
-ul.b {
-     list-style-type: square;
-   }
 
+#ficheros{
+
+     list-style-type:disc;
+
+}
 
 #header{
      width: 1000px;
