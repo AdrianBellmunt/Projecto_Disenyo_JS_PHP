@@ -1,14 +1,13 @@
-
 {% extends 'base.html.twig' %}
 
-{% block title %}Sudaderas/Camisetas{% endblock %}
+{% block title %}RopaLogeado{% endblock %}
 
      
-     {% block body %}
-         
-               <!-- client section start --> 
+{% block body %}
+  
+  <!-- client section start --> 
       <div class="client_section layout_padding">
-        <h1 class="client_taital">Sudaderas y Camisetas</h1>
+        <h1 class="client_taital">Chandals</h1>
         <div class="container">
           <div id="main_slider" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -16,28 +15,29 @@
                 <div class="row">
                   <div class="col-md-6">
                     <div class="alex_bg">
-                      <h3 class="alex_text">NIKE WHITE</h3>
-                     <img src="images/ropa/sudadera4.png"  alt=""> <br>
-                     <input type = "button" id="show" value = "Detalles" onclick ="sacardatos('Sudadera/detallesSudadera.html','contenedor')"> 
+                      <h3 class="alex_text">Chandal amarillo</h3>
+                     <img src="images/ropa/chandalamarillo.webp" alt="">
+
+                     <input type = "button" id="show" value = "Detalles" onclick ="sacardatos('chandal/chandalDetalles.html','contenedor')"> 
                      <button id="hide">Esconder</button>
                      <button id="comprar">Comprar</button>
+                     <button id="comprar">20€</button>
             
                      <div id="contenedor">
                  
                        </div>
-                     
-
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="alex_bg">
-                      <h3 class="alex_text">NIKE BLACK</h3>
-                      <img src="images/ropa/sudadera3.webp"  alt=""> <br>
-                      <input type = "button" id="show" value = "Detalles" onclick ="sacardatos('Sudadera/detallesSudadera.html','contenedor2')"> 
+                      <h3 class="alex_text">Chandal gris</h3>
+                      <img src="images/ropa/chandal2.webp" alt="">
+                      <input type = "button" id="show" value = "Detalles" onclick ="sacardatos('chandal/chandalDetalles.html','contenedor2')"> 
                       <button id="hide2">Esconder</button>
+             
                       <div id="contenedor2">
-                 
-                      </div>
+                  
+                        </div>
                     </div>
                   </div>
                 </div>
@@ -46,25 +46,28 @@
                 <div class="row">
                   <div class="col-md-6">
                     <div class="alex_bg">
-                      <h3 class="alex_text">NIKE T-SHIRT</h3>
-                      <img src="images/ropa/camiseta1.png" alt="">
-                      <input type = "button" id="show" value = "Detalles" onclick ="sacardatos('Sudadera/detallesSudadera.html','contenedor3')"> 
+                      <h3 class="alex_text">Chandal negro</h3>
+                      <img src="images/ropa/chandal negro.webp" alt="">
+
+                      <input type = "button" id="show" value = "Detalles" onclick ="sacardatos('chandal/chandalDetalles.html','contenedor3')"> 
                       <button id="hide3">Esconder</button>
+             
                       <div id="contenedor3">
-                 
-                      </div>
+                  
+                        </div>
                     </div>
                   </div>
                   <div class="col-md-6">
                     <div class="alex_bg">
-                      <h3 class="alex_text">NIKE T-shirt</h3>
-                      <img src="images/ropa/camiseta2.png" alt="">
-                      <input type = "button" id="show" value = "Detalles" onclick ="sacardatos('Sudadera/detallesSudadera.html','contenedor4')"> 
-                      <button id="hide4">Esconder</button>
+                      <h3 class="alex_text">Chandal rojo</h3>
+                      <img src="images/ropa/chandal4.webp" alt="">
 
+                      <input type = "button" id="show" value = "Detalles" onclick ="sacardatos('chandal/chandalDetalles.html','contenedor4')"> 
+                      <button id="hide4">Esconder</button>
+             
                       <div id="contenedor4">
-                 
-                      </div>
+                  
+                        </div>
                     </div>
                   </div>
                 </div>
@@ -93,7 +96,6 @@
         </div>
       </div>
       <!-- join us section end -->
-         
-         
-         
-         {% endblock %}
+  
+  
+{% endblock %}

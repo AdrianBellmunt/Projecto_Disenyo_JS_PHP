@@ -291,6 +291,17 @@ header {
      border-radius: 1px;
      
 }
+
+#comprar{
+     padding: 5px 15px;
+     font-size: 15px;
+     cursor: pointer;
+     text-align: center;	
+     color: #fff;
+     background-color: #da9d1c;
+     border-radius: 1px;
+     
+}
 #show{
      padding: 5px 15px;
      font-size: 15px;

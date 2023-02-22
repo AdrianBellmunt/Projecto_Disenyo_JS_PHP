@@ -79,5 +79,13 @@ class PageController extends AbstractController
     {
         return $this->render('page/chandales.html.twig', []);
     }
+
+
+    #[Route('/ropalogeado_chandal', name: 'ropalogeado_chandal')]
+    public function ropalogeado(): Response
+    {
+        return $this->render('page/ropalogeado_chandal.html.twig', []);
+    }
+    
 }
 
