@@ -49,5 +49,35 @@ class PageController extends AbstractController
     {
         return $this->render('page/trensuperior.html.twig', []);
     }
+
+    #[Route('/treninferior', name: 'treninferior')]
+    public function treninferior(): Response
+    {
+        return $this->render('page/treninferior.html.twig', []);
+    }
+
+    #[Route('/cardiovascular', name: 'cardiovascular')]
+    public function cardiovascular(): Response
+    {
+        return $this->render('page/cardiovascular.html.twig', []);
+    }
+
+    #[Route('/sudaderas', name: 'sudaderas')]
+    public function sudaderas(): Response
+    {
+        return $this->render('page/sudaderas.html.twig', []);
+    }
+
+    #[Route('/zapatilla', name: 'zapatilla')]
+    public function zapatillas(): Response
+    {
+        return $this->render('page/zapatilla.html.twig', []);
+    }
+
+    #[Route('/chandales', name: 'chandales')]
+    public function chandales(): Response
+    {
+        return $this->render('page/chandales.html.twig', []);
+    }
 }
 

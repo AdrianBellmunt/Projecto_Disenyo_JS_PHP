@@ -1,0 +1,101 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Chandal{% endblock %}
+
+     
+{% block body %}
+
+ <!-- client section start --> 
+      <div class="client_section layout_padding">
+        <h1 class="client_taital">Chandals</h1>
+        <div class="container">
+          <div id="main_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="alex_bg">
+                      <h3 class="alex_text">Chandal amarillo</h3>
+                     <img src="images/ropa/chandalamarillo.webp" alt="">
+
+                     <input type = "button" id="show" value = "Detalles" onclick ="sacardatos('chandal/chandalDetalles.html','contenedor')"> 
+                     <button id="hide">Esconder</button>
+            
+                     <div id="contenedor">
+                 
+                       </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="alex_bg">
+                      <h3 class="alex_text">Chandal gris</h3>
+                      <img src="images/ropa/chandal2.webp" alt="">
+                      <input type = "button" id="show" value = "Detalles" onclick ="sacardatos('chandal/chandalDetalles.html','contenedor2')"> 
+                      <button id="hide2">Esconder</button>
+             
+                      <div id="contenedor2">
+                  
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="alex_bg">
+                      <h3 class="alex_text">Chandal negro</h3>
+                      <img src="images/ropa/chandal negro.webp" alt="">
+
+                      <input type = "button" id="show" value = "Detalles" onclick ="sacardatos('chandal/chandalDetalles.html','contenedor3')"> 
+                      <button id="hide3">Esconder</button>
+             
+                      <div id="contenedor3">
+                  
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="alex_bg">
+                      <h3 class="alex_text">Chandal rojo</h3>
+                      <img src="images/ropa/chandal4.webp" alt="">
+
+                      <input type = "button" id="show" value = "Detalles" onclick ="sacardatos('chandal/chandalDetalles.html','contenedor4')"> 
+                      <button id="hide4">Esconder</button>
+             
+                      <div id="contenedor4">
+                  
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           
+            </div>
+            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+              <i class="fa fa-long-arrow-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+              <i class="fa fa-long-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- client section end -->
+      <!-- join us section start -->
+      <div class="join_section margin_top_0">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              
+            </div>
+           
+          </div>
+        </div>
+      </div>
+      <!-- join us section end -->
+  
+  
+  
+  
+{% endblock %}

@@ -1,0 +1,104 @@
+ {% extends 'base.html.twig' %}
+
+{% block title %}Tinferior{% endblock %}
+
+     
+     {% block body %}
+
+ 
+ 
+ <!-- client section start --> 
+      <div class="client_section layout_padding">
+        <h1 class="client_taital">Elige que entrenar</h1>
+        <div class="container">
+          <div id="main_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="alex_bg">
+                      <h3 class="alex_text">Cuadriceps</h3>
+                     <img id="imagenentrene1" src="images/Treninferior/cuadriceps.jpg" alt="">
+                     <input type = "button" id="show" value = "Mostrar Ejercicios" onclick ="sacardatos('EjerciciosTrenInferior/Ecuadriceps.html','contenedor')"> 
+                     <button id="hide">Esconder</button>
+                     
+                     <div id="contenedor">
+                 
+                       </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="alex_bg">
+                      <h3 class="alex_text">Femoral</h3>
+                      <img id="imagenentrene1"  src="images/Treninferior/femoral.jpg" alt="">
+                      <input type = "button" id="show2" value = "Mostrar Ejercicios" onclick ="sacardatos('EjerciciosTrenInferior/Efemoral.html','contenedor2')"> 
+                      <button id="hide2">Esconder</button>
+                      
+                      
+                      <div id="contenedor2">
+                  
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="alex_bg">
+                      <h3 class="alex_text">Gemelos</h3>
+                      <img id="imagenentrene1" src="images/Treninferior/gemelos.jpg" alt="">
+
+                      <input type = "button" id="show3" value = "Mostrar Ejercicios" onclick ="sacardatos('EjerciciosTrenInferior/Egemelos.html','contenedor3')"> 
+                      <button id="hide3">Esconder</button>
+                      
+                      
+                      <div id="contenedor3">
+                  
+                        </div>
+
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="alex_bg">
+                      <h3 class="alex_text">Pierna completa</h3>
+                      <img id="imagenentrene1" src="images/Treninferior/pcompleta.jpg" alt="">
+                      <input type = "button" id="show4" value = "Mostrar Ejercicios" onclick ="sacardatos('EjerciciosTrenInferior/Epiernacompleta.html','contenedor4')"> 
+                      <button id="hide4">Esconder</button>
+                      
+                      
+                      <div id="contenedor4">
+                  
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           
+            </div>
+            <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+              <i class="fa fa-long-arrow-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+              <i class="fa fa-long-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- client section end -->
+      <!-- join us section start -->
+      <div class="join_section margin_top_0">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              
+            </div>
+           
+          </div>
+        </div>
+      </div>
+      <!-- join us section end -->
+
+      {% endblock %}
+
+      
