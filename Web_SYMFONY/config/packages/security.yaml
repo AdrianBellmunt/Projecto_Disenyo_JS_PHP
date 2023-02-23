@@ -34,6 +34,8 @@ security:
         - { path: ^/admin, roles: ROLE_ADMIN }
         - { path: ^/ropalogeadochandal, roles: ROLE_USER }
         - { path: ^/ropalogeadozapatillas, roles: ROLE_USER }
+        - { path: ^/ropalogeadosudaderas, roles: ROLE_USER }
+
 
       
 
