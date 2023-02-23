@@ -300,7 +300,31 @@ header {
      color: #fff;
      background-color: #da9d1c;
      border-radius: 1px;
-     
+}
+
+#precio{
+
+     padding: 5px 15px;
+     font-size: 35px;
+     cursor: pointer;
+     color: #aa0909;
+     border-radius: 10px;
+
+
+}
+
+#estilologout{
+display: flex;
+     width: 200px;
+     color: #000;
+}
+
+#estilologin{
+     margin-top: 0.5rem;
+     display: flex;
+     width: 100px;
+     color: #000;
+
 }
 #show{
      padding: 5px 15px;

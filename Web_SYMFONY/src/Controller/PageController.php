@@ -81,10 +81,16 @@ class PageController extends AbstractController
     }
 
 
-    #[Route('/ropalogeado_chandal', name: 'ropalogeado_chandal')]
+    #[Route('/ropalogeadochandal', name: 'ropalogeadochandal')]
     public function ropalogeado(): Response
     {
         return $this->render('page/ropalogeado_chandal.html.twig', []);
+    }
+    
+    #[Route('/ropalogeadozapatillas', name: 'ropalogeadozapatillas')]
+    public function ropalogeadozapatillas(): Response
+    {
+        return $this->render('page/ropalogeado_zapatillas.html.twig', []);
     }
     
 }
